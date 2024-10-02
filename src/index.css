@@ -1,0 +1,11 @@
+:root {
+  --street-color: #282828;
+  --street-curb-color: yellow;
+  --street-width: 120px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
