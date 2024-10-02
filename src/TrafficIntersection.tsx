@@ -30,7 +30,7 @@ const TrafficIntersection: React.FC = () => {
   const [isTransiting, setIsTransiting] = useState(false);
 
   useEffect(() => {
-    let timer: NodeJS.Timeout;
+    let timer: ReturnType<typeof setTimeout>;
 
     if (cycle === "full") {
       timer = setTimeout(() => {
